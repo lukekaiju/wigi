@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+
+  <aside>
+    <div class="profile">
+      <img src="c:\Users\Q\Desktop\Louigi.jpg" alt="Profile Picture" />
+      <h1>Louigi Cueto</h1>
+      <p>Web Developer</p>
+    </div>
+    <h1 class="cursor">Welcome to My Portfolio</h1>
+</body>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Louigi, 22 Years Old a web Developer.</p>
+    
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML, CSS</li>
+      <li>C#, JavaScript</li>
+      <li>GitHub</li>
+    </ul>
+
+    <h3>Experience</h3>
+    <p>Developed mobile application using java and XML for Android.</p>
+    <p>Actively engaging with the IT community.</p>
+    
+
+    <h3>Achievements</h3>
+    <p>2nd Placer Abacus Competition</p>
+    <p>Most proactive student</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Portfolio website built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>React dashboard for tracking analytics data.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: louigiryezel@gmail.com</p>
+    <div class="socials">
+      <a href="https://www.facebook.com/wigi133">Facebook</a>
+      <a href="#">GitHub</a>
+      <a href="https://www.messenger.com/e2ee/t/9471997726229589">messenger</a>
+    </div>
+  </footer>
+
+  <script src="js.js"></script>
+  <script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark');
+  }
+</script>
+</body>
+</html>
